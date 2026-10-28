@@ -48,6 +48,7 @@ export const profile = {
     "I build fast, reliable mobile and web experiences for real users — from farmer-facing e-commerce in React Native to modern web apps with Next.js and TypeScript.",
   about: [
     "I'm a frontend and React Native engineer with 3.5+ years of experience at Zuari FarmHub, building FarmsApp — an agri-commerce and advisory platform for farmers across India, live on Google Play.",
+    "After a career break, I returned to tech in 2022 through NxtWave's Full Stack Development program and joined Zuari FarmHub in 2023 — where I've been shipping production features ever since.",
     "I've owned features end to end: product discovery, cart and checkout, Razorpay payments, voice and fuzzy search in multiple languages, video consultations with WebRTC, Google Maps field mapping and push notifications.",
     "Beyond features, I take the app all the way to users — publishing releases to the Google Play Store, investigating crashes and ANRs through Play Console, handling Android SDK upgrades and keeping releases policy-compliant. Today I'm extending the platform to the web with Next.js and TypeScript.",
   ],
