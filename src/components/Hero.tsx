@@ -1,5 +1,5 @@
 import { profile } from "@/data/profile";
-import { DownloadIcon, PinIcon, socialIcon } from "./Icons";
+import { ArrowUpRightIcon, DownloadIcon, PinIcon, PlayIcon, socialIcon } from "./Icons";
 
 export default function Hero() {
   return (
@@ -9,10 +9,22 @@ export default function Hero() {
         className="pointer-events-none absolute inset-x-0 -top-40 -z-10 mx-auto h-96 max-w-3xl rounded-full bg-emerald-200/40 blur-3xl dark:bg-emerald-900/30"
       />
       <div className="mx-auto max-w-5xl px-4 pb-20 pt-20 sm:px-6 sm:pt-28">
-        <p className="inline-flex items-center gap-2 rounded-full bg-accent-soft px-3 py-1 text-sm font-medium text-accent">
-          <span className="h-2 w-2 rounded-full bg-accent" />
-          Open to new opportunities
-        </p>
+        <div className="flex flex-wrap gap-2">
+          <p className="inline-flex items-center gap-2 rounded-full bg-accent-soft px-3 py-1 text-sm font-medium text-accent">
+            <span className="h-2 w-2 rounded-full bg-accent" />
+            Open to new opportunities
+          </p>
+          <a
+            href={profile.playStore}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-sm font-medium text-slate-700 transition-colors hover:border-accent hover:text-accent dark:border-slate-700 dark:text-slate-200"
+          >
+            <PlayIcon className="h-3.5 w-3.5" />
+            Shipped FarmsApp to Google Play
+            <ArrowUpRightIcon className="h-3.5 w-3.5" />
+          </a>
+        </div>
 
         <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl dark:text-white">
           Hi, I&apos;m {profile.name}.

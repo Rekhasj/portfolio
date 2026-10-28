@@ -48,7 +48,7 @@ function ProjectCard({ project }: { project: WorkProject }) {
             Case studies: challenge → approach → impact
             <ChevronIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
           </summary>
-          <div className="grid gap-4 px-5 pb-5 md:grid-cols-3">
+          <div className="grid gap-4 px-5 pb-5 md:grid-cols-2">
             {project.caseStudies.map((c) => (
               <div key={c.title} className="rounded-lg bg-white p-4 text-sm dark:bg-slate-900">
                 <p className="font-semibold text-slate-900 dark:text-white">{c.title}</p>

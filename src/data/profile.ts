@@ -43,12 +43,13 @@ export const profile = {
   location: "Bengaluru, India",
   email: "rekhasj21@gmail.com",
   resume: "/Rekha_SJ_Resume.pdf",
+  playStore: "https://play.google.com/store/apps/details?id=com.farmsapp&hl=en_IN",
   tagline:
     "I build fast, reliable mobile and web experiences for real users — from farmer-facing e-commerce in React Native to modern web apps with Next.js and TypeScript.",
   about: [
-    "I'm a frontend and React Native engineer with 3.5+ years of experience at Zuari FarmHub, building FarmsApp — an agri-commerce and advisory platform used by farmers across India.",
+    "I'm a frontend and React Native engineer with 3.5+ years of experience at Zuari FarmHub, building FarmsApp — an agri-commerce and advisory platform for farmers across India, live on Google Play.",
     "I've owned features end to end: product discovery, cart and checkout, Razorpay payments, voice and fuzzy search in multiple languages, video consultations with WebRTC, Google Maps field mapping and push notifications.",
-    "Beyond features, I care about stability in production — investigating crashes and ANRs through Play Console, handling Android SDK upgrades and keeping Play Store releases compliant. Today I'm extending the platform to the web with Next.js and TypeScript.",
+    "Beyond features, I take the app all the way to users — publishing releases to the Google Play Store, investigating crashes and ANRs through Play Console, handling Android SDK upgrades and keeping releases policy-compliant. Today I'm extending the platform to the web with Next.js and TypeScript.",
   ],
   socials: [
     { label: "LinkedIn", href: "https://www.linkedin.com/in/rekhasj/" },
@@ -65,7 +66,7 @@ export const profile = {
     { title: "State Management", items: ["Redux", "Redux Toolkit", "Redux-Saga", "Redux Persist"] },
     { title: "Backend & Data", items: ["Node.js", "REST APIs", "SQL", "Firebase"] },
     { title: "Integrations", items: ["Razorpay", "Google Maps", "WebRTC", "Firebase Cloud Messaging", "Tata Tele"] },
-    { title: "Tools & Delivery", items: ["Git", "Play Store releases", "Android SDK upgrades", "Crash & ANR debugging", "Analytics"] },
+    { title: "Tools & Delivery", items: ["Git", "Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Analytics"] },
   ] satisfies SkillGroup[],
   experience: [
     {
@@ -83,12 +84,13 @@ export const profile = {
           tech: ["React Native", "Redux", "Firebase", "Razorpay", "Google Maps", "WebRTC"],
           link: { label: "Google Play", href: "https://play.google.com/store/apps/details?id=com.farmsapp&hl=en_IN" },
           highlights: [
+            "Published and maintained FarmsApp on the Google Play Store — owning Play Store deployments, release updates and compliance.",
             "Built farmer-focused e-commerce flows: product discovery, cart, checkout, orders and order tracking.",
             "Integrated Razorpay payments and refined checkout UX for ~15% better checkout completion.",
             "Implemented fuzzy and voice-based product search with multi-language support, cutting search time by ~20%.",
             "Delivered video consultations and product-discovery enhancements for farmers.",
             "Built Google Maps field-mapping flows, push notifications and document verification.",
-            "Investigated production crashes and ANRs; handled Android SDK upgrades and Play Store compliance.",
+            "Investigated production crashes and ANRs using Play Console diagnostics; handled Android SDK upgrades.",
             "Added analytics tracking to guide product and UX decisions.",
           ],
           caseStudies: [
@@ -105,10 +107,16 @@ export const profile = {
               impact: "~15% improvement in checkout completion.",
             },
             {
+              title: "Shipping to Google Play",
+              challenge: "Getting new features to farmers reliably while meeting Play Store policies and Android target-SDK requirements.",
+              approach: "Handled Play Store deployments end to end, upgraded the Android SDK and resolved Play Store compliance issues before each release.",
+              impact: "FarmsApp live and regularly updated on Google Play.",
+            },
+            {
               title: "Keeping production stable",
               challenge: "Crashes and ANRs tied to app startup, notifications, background services and native dependencies.",
-              approach: "Traced issues through Play Console diagnostics and Android crash reports; managed SDK upgrades and Play Store compliance.",
-              impact: "Stable, compliant releases on the Play Store.",
+              approach: "Traced issues through Play Console diagnostics and Android crash reports to their root cause.",
+              impact: "More stable releases for farmers in production.",
             },
           ],
         },

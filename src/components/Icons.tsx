@@ -44,6 +44,14 @@ export function PinIcon({ className = base }: IconProps) {
   );
 }
 
+export function PlayIcon({ className = base }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden className={className}>
+      <path d="M4.5 2.8a1 1 0 0 1 1.5-.87l14 8.2a1 1 0 0 1 0 1.73l-14 8.2a1 1 0 0 1-1.5-.86V2.8Z" />
+    </svg>
+  );
+}
+
 export function ArrowUpRightIcon({ className = "h-4 w-4" }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} aria-hidden className={className}>
