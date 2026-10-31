@@ -67,7 +67,7 @@ export const profile = {
     { title: "State Management", items: ["Redux", "Redux Toolkit", "Redux-Saga", "Redux Persist"] },
     { title: "Backend & Data", items: ["Node.js", "REST APIs", "SQL", "Firebase"] },
     { title: "Integrations", items: ["Razorpay", "Google Maps", "WebRTC", "Firebase Cloud Messaging", "Tata Tele"] },
-    { title: "Tools & Delivery", items: ["Git", "Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Analytics", "AI-assisted development (Claude Code)"] },
+    { title: "Tools & Delivery", items: ["Git", "Docker","Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Analytics", "AI-assisted development (Claude Code)"] },
   ] satisfies SkillGroup[],
   experience: [
     {
@@ -82,7 +82,7 @@ export const profile = {
           period: "Aug 2023 – Present",
           summary:
             "A mobile platform where farmers discover and buy agri products, track orders and get expert advice over video.",
-          tech: ["React Native", "Redux", "Firebase", "Razorpay", "Google Maps", "WebRTC"],
+          tech: ["React Native", "Redux", "Firebase", "Razorpay", "Google Maps", "WebRTC", "SQL"],
           link: { label: "Google Play", href: "https://play.google.com/store/apps/details?id=com.farmsapp&hl=en_IN" },
           highlights: [
             "Published and maintained FarmsApp on the Google Play Store — owning Play Store deployments, release updates and compliance.",
@@ -92,7 +92,7 @@ export const profile = {
             "Delivered video consultations and product-discovery enhancements for farmers.",
             "Built Google Maps field-mapping flows, push notifications and document verification.",
             "Investigated production crashes and ANRs using Play Console diagnostics; handled Android SDK upgrades.",
-            "Added analytics tracking to guide product and UX decisions.",
+            "Added analytics tracking and wrote SQL queries to check app events and data, guiding product and UX decisions.",
           ],
           caseStudies: [
             {
@@ -138,12 +138,13 @@ export const profile = {
           type: "Operations web app · React",
           period: "Sep 2023 – Present",
           summary: "A web portal that helps field agents manage enquiries, carts and orders for farmers.",
-          tech: ["React", "Redux", "REST APIs", "Firebase", "Tata Tele"],
+          tech: ["React", "Redux", "REST APIs", "Firebase", "Tata Tele", "Docker"],
           link: { label: "Agent login", href: "https://kiosk.farm/login" },
           highlights: [
             "Developed cart, enquiry and order-management modules for agent operations.",
             "Implemented advanced filters by Order ID, mobile number, status, date and more.",
             "Built video-call and notification features to improve agent communication.",
+            "Deployed the portal using Docker.",
           ],
         },
         {
