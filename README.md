@@ -12,7 +12,7 @@ npm run dev
 ## Edit content
 
 All text — about, skills, experience, projects, education — lives in `src/data/profile.ts`.
-The resume served by the "Resume" buttons is `public/Rekha_SJ_Resume.pdf`.
+The resume served by the "Resume" buttons is `public/Rekha_SJ_Frontend_React_Native_Developer.pdf`.
 
 ## Deploy to Netlify
 

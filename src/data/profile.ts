@@ -39,15 +39,15 @@ export type Education = { title: string; place: string; period: string; note?: s
 
 export const profile = {
   name: "Rekha SJ",
-  role: "Frontend & React Native Engineer",
+  role: "Frontend & React Native Developer",
   location: "Bengaluru, India",
   email: "rekhasj21@gmail.com",
-  resume: "/Rekha_SJ_Resume.pdf",
+  resume: "/Rekha_SJ_Frontend_React_Native_Developer.pdf",
   playStore: "https://play.google.com/store/apps/details?id=com.farmsapp&hl=en_IN",
   tagline:
-    "I build fast, reliable mobile and web experiences for real users — from farmer-facing e-commerce in React Native to modern web apps with Next.js and TypeScript.",
+    "I build fast, responsive cross-platform mobile applications and web apps — from farmer-facing e-commerce in React Native to modern web experiences with Next.js and TypeScript.",
   about: [
-    "I'm a frontend and React Native engineer with 3.5+ years of experience at Zuari FarmHub, building FarmsApp — an agri-commerce and advisory platform for farmers across India, live on Google Play.",
+    "I'm a frontend and React Native developer with 3.5+ years of experience at Zuari FarmHub, building FarmsApp — an agri-commerce and advisory platform for farmers across India, live on Google Play.",
     "After a career break, I returned to tech in 2022 through NxtWave's Full Stack Development program and joined Zuari FarmHub in 2023 — where I've been shipping production features ever since.",
     "I've owned features end to end: product discovery, cart and checkout, Razorpay payments, voice and fuzzy search in multiple languages, video consultations with WebRTC, Google Maps field mapping and push notifications.",
     "Beyond features, I take the app all the way to users — publishing releases to the Google Play Store, investigating crashes and ANRs through Play Console, handling Android SDK upgrades and keeping releases policy-compliant. Today I'm extending the platform to the web with Next.js and TypeScript.",
@@ -63,11 +63,12 @@ export const profile = {
     { value: "~20%", label: "Faster product search" },
   ] satisfies Stat[],
   skills: [
-    { title: "Frontend", items: ["React Native", "React.js", "Next.js", "TypeScript", "JavaScript", "HTML", "CSS", "Bootstrap"] },
+    { title: "Frontend", items: ["React Native", "React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML", "CSS", "Responsive Design", "Bootstrap"] },
     { title: "State Management", items: ["Redux", "Redux Toolkit", "Redux-Saga", "Redux Persist"] },
-    { title: "Backend & Data", items: ["Node.js", "REST APIs", "SQL", "Firebase"] },
+    { title: "Backend & Data", items: ["Node.js", "RESTful APIs", "API integration", "SQL", "Firebase"] },
     { title: "Integrations", items: ["Razorpay", "Google Maps", "WebRTC", "Firebase Cloud Messaging", "Tata Tele"] },
-    { title: "Tools & Delivery", items: ["Git", "Docker","Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Analytics", "AI-assisted development (Claude Code)"] },
+    { title: "Tools", items: ["Git", "GitHub", "Docker", "Jira", "Figma", "Android Studio", "Chrome DevTools", "AI-assisted development (Claude Code)"] },
+    { title: "Delivery & Debugging", items: ["Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Performance profiling", "Analytics"] },
   ] satisfies SkillGroup[],
   experience: [
     {
@@ -91,7 +92,7 @@ export const profile = {
             "Implemented fuzzy and voice-based product search with multi-language support, cutting search time by ~20%.",
             "Delivered video consultations and product-discovery enhancements for farmers.",
             "Built Google Maps field-mapping flows, push notifications and document verification.",
-            "Investigated production crashes and ANRs using Play Console diagnostics; handled Android SDK upgrades.",
+            "Investigated production crashes and ANRs in the Android app using Play Console diagnostics and Android Studio; handled Android SDK upgrades.",
             "Added analytics tracking and wrote SQL queries to check app events and data, guiding product and UX decisions.",
           ],
           caseStudies: [
@@ -154,7 +155,7 @@ export const profile = {
           summary: "A React Native kiosk app for in-store farmer interactions.",
           tech: ["React Native", "Redux", "REST APIs", "Tata Tele"],
           highlights: [
-            "Improved user experience through UI refinements and animations.",
+            "Improved user experience through UI refinements and animations, implementing screens from Figma designs.",
             "Implemented core video-call and push-notification features.",
           ],
         },
