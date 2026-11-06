@@ -67,7 +67,7 @@ export const profile = {
     { title: "State Management", items: ["Redux", "Redux Toolkit", "Redux-Saga", "Redux Persist"] },
     { title: "Backend & Data", items: ["Node.js", "RESTful APIs", "API integration", "SQL", "Firebase"] },
     { title: "Integrations", items: ["Razorpay", "Google Maps", "WebRTC", "Firebase Cloud Messaging", "Tata Tele"] },
-    { title: "Tools", items: ["Git", "GitHub", "Docker", "Jira", "Figma", "Android Studio", "Chrome DevTools", "AI-assisted development (Claude Code)"] },
+    { title: "Tools", items: ["Git", "GitHub", "Docker", "Linux","Jira", "Figma", "Android Studio", "Chrome DevTools", "AI-assisted development (Claude Code)"] },
     { title: "Delivery & Debugging", items: ["Google Play publishing", "Play Console", "Android SDK upgrades", "Crash & ANR debugging", "Performance profiling", "Analytics"] },
   ] satisfies SkillGroup[],
   experience: [
